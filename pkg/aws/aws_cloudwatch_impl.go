@@ -5,7 +5,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/cloudwatchlogs"
-	"github.com/go-playground/log/v8"
+	"github.com/gofiber/fiber/v2/log"
 	"github.com/saesetiawan/aws-go/pkg/helpers"
 	"github.com/saesetiawan/aws-go/pkg/slack"
 	"time"

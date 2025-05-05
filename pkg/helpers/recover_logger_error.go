@@ -1,6 +1,6 @@
 package helpers
 
-import "github.com/go-playground/log/v8"
+import "github.com/gofiber/fiber/v2/log"
 
 func RecoverLoggerError() {
 	err := recover()
